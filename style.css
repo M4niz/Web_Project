@@ -650,3 +650,26 @@ body {
     height: 50vmax;
   }
 }
+.cart-icon {
+  position: relative;
+  margin-left: 50px;
+  padding-bottom: 10px;
+}
+
+.cart-icon a {
+  text-decoration: none;
+  color: #444;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.cart-items {
+  position: absolute;
+  top: -3px;
+  right: -3px;
+  background-color: #f8af13;
+  color: #fff;
+  border-radius: 50%;
+  padding: 3px 6px;
+  font-size: 12px;
+}
