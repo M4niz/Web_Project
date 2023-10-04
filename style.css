@@ -673,3 +673,9 @@ body {
   padding: 3px 6px;
   font-size: 12px;
 }
+.sketchfab-embed-wrapper {
+  
+  margin: auto;
+  width: 75%;
+  padding: 20px;
+}
