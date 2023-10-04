@@ -22,7 +22,6 @@ let controls;
 //Set which object to render
 let objToRender = 'dino';
 
-//Instantiate a loader for the .gltf file
 const loader = new GLTFLoader();
 
 //Load the file
