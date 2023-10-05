@@ -16,7 +16,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* ///////////..utility classes../////////// */
 
 .container {
   max-width: 1200px;
@@ -46,9 +45,6 @@ body {
   transition: background 0.3s ease-in-out;
 }
 
-/* ............/navbar/............ *
-
-/* desktop mode............/// */
 
 .navbar input[type="checkbox"],
 .navbar .hamburger-lines {
@@ -108,7 +104,7 @@ body {
   margin-bottom: 0.5rem;
 }
 
-/* ............//// Showcase styling ////......... */
+
 
 .showcase-area {
   height: 70vh;
@@ -204,7 +200,7 @@ body {
   object-position: right;
 }
 
-/* ..........////arts category///........... */
+
 
 #arts {
   padding: 2rem 0 10rem 0;
@@ -290,7 +286,6 @@ body {
   top: 40%;
 }
 
-/* .........../arts Menu/............ */
 
 .arts-menu-heading {
   text-align: center;
@@ -342,7 +337,6 @@ body {
   font-weight: 700;
 }
 
-/* ........./ Testimonial /.......... */
 
 #testimonials {
   padding: 5rem 0;
@@ -387,7 +381,7 @@ body {
   margin: auto;
 }
 
-/* ........ Contact Us........... */
+
 
 #contact {
   padding: 5rem 0;
@@ -462,7 +456,7 @@ body {
   background: rgb(65, 65, 65);
 }
 
-/* ......../ media query /.......... */
+
 
 @media (max-width: 768px) {
   .navbar {
@@ -569,7 +563,7 @@ body {
     transform: rotate(-35deg);
   }
 
-  /* ......./ arts /......... */
+  
 
   .arts-container {
     flex-direction: column;
@@ -707,7 +701,7 @@ body {
 .cart-container {
   position: fixed;
   bottom: 0;
-  right: -300px; /* Start hidden off-screen */
+  right: -300px; 
   width: 300px;
   height: 100%;
   background-color: #fff;
@@ -719,7 +713,7 @@ body {
 }
 
 .cart-visible {
-  right: 0; /* Show the cart container */
+  right: 0;
 }
 
 .cart-content {
