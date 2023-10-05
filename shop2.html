@@ -11,6 +11,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="cart.css" />
     <link rel="stylesheet" href="style.css" />
 
   </head>
@@ -31,6 +32,7 @@
               <li><a href="index.html">Top</a></li>
               <li><a href="index.html">Testimonial</a></li>
               <li><a href="index.html">Contact</a></li>
+              <li>Total:$<span id="cart-total">0.00</span></li>
               <div class="cart-icon">
                 <a href="#cart"><i class="fa fa-shopping-cart"></i></a>
                 <span class="cart-items"></span>
@@ -39,6 +41,11 @@
           </ul>
           <a class="logo" href="index.html" >Art Vista</a>
         </div>
+        <div>
+          <div class="cart-items" id="cart-items">
+              
+            </div>
+          </div> 
       </div>    
 </nav>
 
@@ -50,26 +57,29 @@
     allow="autoplay; fullscreen; xr-spatial-tracking" 
     xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" 
     src="https://sketchfab.com/models/8f37e8f461e7418695b9244e1712941a/embed"> </iframe>
-    <a class="btn btn-primary">Buy</a>
+    <a class="btn btn-primary" onclick="addToCart('Painting 1', 200.00)">Add to Cart</a>
     <a ><i class="fa fa-shopping-cart"></i></a>
+    <p>Price: $200.00</p>
  </div>
     <div class="sketchfab-embed-wrapper"> <iframe title="Medieval_Monsters_Painting" frameborder="0" 
         allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" 
         allow="autoplay; fullscreen; xr-spatial-tracking" 
         xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" 
         src="https://sketchfab.com/models/300d6d1c545e4516bfa9317051af9c18/embed"> </iframe> 
-        <a class="btn btn-primary">Buy</a>
+        <a class="btn btn-primary" onclick="addToCart('Painting 2', 250.00)">Add to Cart</a>
         <a ><i class="fa fa-shopping-cart"></i></a>
+        <p>Price: $250.00</p>
     </div>
     <div class="sketchfab-embed-wrapper"> <iframe title="Medieval_Skulls_Painting" frameborder="0" 
         allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" 
         allow="autoplay; fullscreen; xr-spatial-tracking" 
         xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share 
         width="640" height="480" src="https://sketchfab.com/models/a835773cae39414cbd404c147a724968/embed"> </iframe> 
-        <a class="btn btn-primary">Buy</a>
+        <a class="btn btn-primary" onclick="addToCart('Painting 3', 500.00)">Add to Cart</a>
         <a ><i class="fa fa-shopping-cart"></i></a>
+        <p>Price: $500.00</p>
     </div>
-       
+       <script src="c.js"></script>
     
 
 </body>
